@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="task_name_title_string">Название задачи</string>
+    <string name="task_description_title_string">Описание задачи</string>
+    <string name="save_button_title_string">Сохранить</string>
+    <string name="add_task_button_string">Добавить задачу</string>
+    <string name="no_tasks_string">Нет задач</string>
+    <string name="delete_button_string">Удалить</string>
+    <string name="edit_button_string">Изменить</string>
+</resources>

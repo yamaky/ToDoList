@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "110ee1c28485dba58e537fb61197a0ad",
+    "entities": [
+      {
+        "tableName": "Tasks",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`TaskId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `TaskName` TEXT NOT NULL, `TaskDescription` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "TaskId",
+            "columnName": "TaskId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "TaskName",
+            "columnName": "TaskName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "TaskDescription",
+            "columnName": "TaskDescription",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "TaskId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '110ee1c28485dba58e537fb61197a0ad')"
+    ]
+  }
+}

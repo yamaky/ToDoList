@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ToDoList/ToDoList/app/src/main/res/layout/activity_edit_task.xml" value="0.25416666666666665" />
+        <entry key="..\:/ToDoList/ToDoList/app/src/main/res/layout/activity_show_task.xml" value="0.25416666666666665" />
+        <entry key="..\:/ToDoList/ToDoList/app/src/main/res/layout/activity_task_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/ToDoList/ToDoList/app/src/main/res/layout/task_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Winter_Forest/Yamaky's/ToDoList/app/src/main/res/layout/activity_edit_task.xml" value="0.36666666666666664" />
+        <entry key="..\:/Winter_Forest/Yamaky's/ToDoList/app/src/main/res/layout/activity_task_list.xml" value="0.33" />
+        <entry key="..\:/Winter_Forest/Yamaky's/ToDoList/app/src/main/res/layout/task_item.xml" value="0.5474339035769828" />
+        <entry key="..\:/Winter_Forest/Yamaky/ToDoList/app/src/main/res/layout/activity_edit_task.xml" value="0.33" />
+        <entry key="..\:/Winter_Forest/Yamaky/ToDoList/app/src/main/res/layout/activity_show_task.xml" value="0.36666666666666664" />
+        <entry key="..\:/Winter_Forest/Yamaky/ToDoList/app/src/main/res/layout/activity_task_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Winter_Forest/Yamaky/ToDoList/app/src/main/res/layout/task_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
